@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TimerMark (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TimerMark (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TimerMark:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TimerMark: 7292e18698eccf2ce321c2ae024aa958ddb67dd8
+
+PODFILE CHECKSUM: 1f379ef92a298e99fa916187c7a070035ca48373
+
+COCOAPODS: 1.5.3

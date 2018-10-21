@@ -1,0 +1,6 @@
+framework module TimerMark {
+  umbrella header "TimerMark-umbrella.h"
+
+  export *
+  module * { export * }
+}

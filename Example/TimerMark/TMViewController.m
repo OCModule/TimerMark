@@ -7,6 +7,7 @@
 //
 
 #import "TMViewController.h"
+#import "TMNextController.h"
 
 @interface TMViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    TMNextController *dest = [TMNextController new];
+    [self presentViewController:dest animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

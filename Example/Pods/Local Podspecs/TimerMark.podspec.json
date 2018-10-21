@@ -1,0 +1,22 @@
+{
+  "name": "TimerMark",
+  "version": "0.1.0",
+  "summary": "A short description of TimerMark.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CNKCQ/TimerMark",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CNKCQ": "wangchengqvan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/CNKCQ/TimerMark.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TimerMark/Classes/**/*"
+}
