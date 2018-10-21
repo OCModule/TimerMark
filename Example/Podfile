@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TimerMark_Example' do
+  pod 'TimerMark', :path => '../'
+
+  target 'TimerMark_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
